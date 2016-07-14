@@ -1,0 +1,28 @@
+{
+  "name": "influxdb-redis-caching",
+  "version": "0.0.1",
+  "description": "Redis caching for InfluxDB queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javimudi/influxdb-redis-caching.git"
+  },
+  "keywords": [
+    "influxdb",
+    "redis",
+    "caching"
+  ],
+  "author": "Javier Muñoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javimudi/influxdb-redis-caching/issues"
+  },
+  "homepage": "https://github.com/javimudi/influxdb-redis-caching#readme",
+  "dependencies": {
+    "redis": "^2.6.2",
+    "restify": "^4.1.1"
+  }
+}
